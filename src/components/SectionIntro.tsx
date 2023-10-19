@@ -13,7 +13,7 @@ export function SectionIntro({
 }: Omit<
   React.ComponentPropsWithoutRef<typeof Container>,
   'title' | 'children'
-> & {
+> & { 
   title: string
   eyebrow?: string
   children?: React.ReactNode

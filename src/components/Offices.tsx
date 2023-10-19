@@ -32,10 +32,10 @@ export function Offices({
   return (
     <ul role="list" {...props}>
       <li>
-        <Office name="Copenhagen" invert={invert}>
-          1 Carlsberg Gate
+        <Office name="Contact" invert={invert}>
+          info@doragonmedia.com
           <br />
-          1260, København, Denmark
+          +1 (305) 778 0591
         </Office>
       </li>
       <li>
