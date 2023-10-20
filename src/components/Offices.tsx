@@ -32,19 +32,23 @@ export function Offices({
   return (
     <ul role="list" {...props}>
       <li>
-        <Office name="Contact" invert={invert}>
+        <Office name="Email" invert={invert}>
           info@doragonmedia.com
           <br />
-          +1 (305) 778 0591
         </Office>
       </li>
       <li>
-        <Office name="Billund" invert={invert}>
-          24 Lego Allé
+        <Office name="Address" invert={invert}>
+          9737 NW 41 ST #395
           <br />
-          7190, Billund, Denmark
+          DORAL, FL 33178
         </Office>
       </li>
     </ul>
   )
 }
+
+
+export function Offices(
+  {invert=false, ...props}
+  :React.ComponentPropswithoutRef<'ul'> & {invert?: booolean})

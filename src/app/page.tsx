@@ -125,7 +125,7 @@ function Services() {
     <>
       <SectionIntro
         eyebrow="Services"
-        title="Empower Your Digital Journey: Custom Solutions, Endless Possibilities"
+        title="Custom Solutions, Endless Possibilities"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
@@ -176,7 +176,7 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-          Elevating Brands in the Digital World
+          Elevating Brands in the Digital World  
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
           We are a committed software development agency, located at the convergence of innovative design and cutting-edge technology. Our team harnesses the most recent technological breakthroughs, crafting visually stunning and technically superior software solutions.
